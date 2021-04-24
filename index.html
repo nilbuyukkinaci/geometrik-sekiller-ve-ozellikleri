@@ -1,0 +1,119 @@
+<DOCTYPE! html>
+
+<html>
+	<head>
+		<title>Geometrik Şekiller ve Özellikleri</title>
+		<script src=js/script.js></script>
+		<link href = "main.css" rel = "stylesheet"/>
+	</head>
+
+	<body>
+
+		<form>
+			<h1>Kare:</h1>
+			
+			<img src = "https://www.freeiconspng.com/thumbs/square-png/transparent-square-11.png" width = 100px height = 100px></img>
+			
+			<ul>
+				<li style="float:left">Kenar Sayısı:</li>
+					<input type="text" id="kare1"/><br/>
+				<li style="float:left">Açı Sayısı: </li>
+					<input type="text" id="kare2"/><br/>
+				<li style="float:left">İç Açıları Toplamı: </li>
+					<input type="text" id="kare3"/><br/>
+				<li style="float:left">Dış Açıları Toplamı: </li>
+					<input type="text" id="kare4"/><br/>
+				<li style="float:left">Düzgün Çokgen Olması Halinde Bir İç Açı Değeri: </li>
+					<input type="text" id="kare5"/><br/>
+			</ul> 
+
+			<button type=button onclick="KareKontrol()">Kontrol Et</button>
+			<input type="reset" onclick="KareYenile()" value="Yenile">
+		</form>
+
+		<form>
+			<br/><h1>Üçgen:</h1>
+			
+			<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Regular_triangle.svg/1024px-Regular_triangle.svg.png" width = 130px height = 130px></img><br/>
+			<ul>
+				<li style="float:left">Kenar Sayısı:</li>
+					<input type="text" id="u1"/><br/>
+				<li style="float:left">Açı Sayısı: </li>
+					<input type="text" id="u2"/><br/>
+				<li style="float:left">İç Açıları Toplamı: </li>
+					<input type="text" id="u3"/><br/>
+				<li style="float:left">Dış Açıları Toplamı: </li>
+					<input type="text" id="u4"/><br/>
+				<li style="float:left">Düzgün Çokgen Olması Halinde Bir İç Açı Değeri: </li>
+					<input type="text" id="u5"/><br/>
+			</ul> 
+
+			<button type=button onclick="UcgenKontrol()">Kontrol Et</button>
+			<input type="reset" onclick="UcgenYenile()" value="Yenile">
+		</form>
+		
+		<form>
+			<br/><h1>Dikdörtgen:</h1>
+			
+			<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/A_sample_of_the_transparent_rectangle.svg/1280px-A_sample_of_the_transparent_rectangle.svg.png" width = 180px height = 100px></img><br/>
+			<ul>
+				<li style="float:left">Kenar Sayısı:</li>
+					<input type="text" id="d1"/><br/>
+				<li style="float:left">Açı Sayısı: </li>
+					<input type="text" id="d2"/><br/>
+				<li style="float:left">İç Açıları Toplamı: </li>
+					<input type="text" id="d3"/><br/>
+				<li style="float:left">Dış Açıları Toplamı: </li>
+					<input type="text" id="d4"/><br/>
+				<li style="float:left">Düzgün Çokgen Olması Halinde Bir İç Açı Değeri: </li>
+					<input type="text" id="d5"/><br/>
+			</ul> 
+
+			<button type=button onclick="DikdortgenKontrol()">Kontrol Et</button>
+			<input type="reset" onclick="DikdortgenYenile()" value="Yenile">
+		</form>
+		
+		<form>
+			<br/><h1>Beşgen:</h1>
+			
+			<img src = "https://images.vexels.com/media/users/3/139250/isolated/preview/c110ddafb99983bba3a8956c3ffd25b2-pentagon-stroke-shape-by-vexels.png" width = 140px height = 140px></img><br/>
+			<ul>
+				<li style="float:left">Kenar Sayısı:</li>
+					<input type="text" id="b1"/><br/>
+				<li style="float:left">Açı Sayısı: </li>
+					<input type="text" id="b2"/><br/>
+				<li style="float:left">İç Açıları Toplamı: </li>
+					<input type="text" id="b3"/><br/>
+				<li style="float:left">Dış Açıları Toplamı: </li>
+					<input type="text" id="b4"/><br/>
+				<li style="float:left">Düzgün Çokgen Olması Halinde Bir İç Açı Değeri: </li>
+					<input type="text" id="b5"/><br/>
+			</ul> 
+
+			<button type=button onclick="BesgenKontrol()">Kontrol Et</button>
+			<input type="reset" onclick="BesgenYenile()" value="Yenile">
+		</form>
+		
+		<form>
+			<br/><h1>Altıgen:</h1>
+			
+			<img src = "https://img.pngio.com/hexagon-png-transparent-hexagonpng-images-dlpngcom-hexagon-transparent-background-400_461.png" width = 110px height = 110px></img><br/>
+			<ul>
+				<li style="float:left">Kenar Sayısı:</li>
+					<input type="text" id="a1"/><br/>
+				<li style="float:left">Açı Sayısı: </li>
+					<input type="text" id="a2"/><br/>
+				<li style="float:left">İç Açıları Toplamı: </li>
+					<input type="text" id="a3"/><br/>
+				<li style="float:left">Dış Açıları Toplamı: </li>
+					<input type="text" id="a4"/><br/>
+				<li style="float:left">Düzgün Çokgen Olması Halinde Bir İç Açı Değeri: </li>
+					<input type="text" id="a5"/><br/>
+			</ul> 
+
+			<button type=button onclick="AltigenKontrol()">Kontrol Et</button>
+			<input type="reset" onclick="AltigenYenile()" value="Yenile">
+		</form>
+		
+	</body>
+</html>
