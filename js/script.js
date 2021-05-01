@@ -177,7 +177,7 @@ function BesgenKontrol()
 
 	let kutu2 = document.querySelector("#b2");
 	var cevap2 = document.getElementById("b2").value;
-	if(cevap1 == "5")
+	if(cevap2 == "5")
 		kutu2.style.backgroundColor = "#00FF00";
 	else
 		kutu2.style.backgroundColor = "#FF0000";
