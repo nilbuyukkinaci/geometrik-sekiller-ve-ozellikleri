@@ -9,7 +9,7 @@ function KareKontrol()
 
 	let kutu2 = document.querySelector("#kare2");
 	var cevap2 = document.getElementById("kare2").value;
-	if(cevap1 == "4")
+	if(cevap2 == "4")
 		kutu2.style.backgroundColor = "#00FF00";
 	else
 		kutu2.style.backgroundColor = "#FF0000";
@@ -65,7 +65,7 @@ function UcgenKontrol()
 
 	let kutu2 = document.querySelector("#u2");
 	var cevap2 = document.getElementById("u2").value;
-	if(cevap1 == "3")
+	if(cevap2 == "3")
 		kutu2.style.backgroundColor = "#00FF00";
 	else
 		kutu2.style.backgroundColor = "#FF0000";
@@ -121,7 +121,7 @@ function DikdortgenKontrol()
 
 	let kutu2 = document.querySelector("#d2");
 	var cevap2 = document.getElementById("d2").value;
-	if(cevap1 == "4")
+	if(cevap2 == "4")
 		kutu2.style.backgroundColor = "#00FF00";
 	else
 		kutu2.style.backgroundColor = "#FF0000";
@@ -233,7 +233,7 @@ function AltigenKontrol()
 
 	let kutu2 = document.querySelector("#a2");
 	var cevap2 = document.getElementById("a2").value;
-	if(cevap1 == "6")
+	if(cevap2 == "6")
 		kutu2.style.backgroundColor = "#00FF00";
 	else
 		kutu2.style.backgroundColor = "#FF0000";
